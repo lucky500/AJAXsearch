@@ -14,7 +14,7 @@ $('#search').keyup(function(){
 				if((val.name.search(myExp) != -1) || 
 					(val.bio.search(myExp) != -1)){
 					//adding to output a li
-					output += "</li>";
+					output += "<li>";
 					//then concatnating h2 with val.name
 					output += "<h2>" + val.name + "</h2>";
 					//this was the hardest, concating image with val.shortname
